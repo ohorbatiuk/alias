@@ -267,7 +267,7 @@ execute_git_branch_environment() {
 }
 
 alias egbd='execute_git_branch_environment dev dev'
-alias egbm='execute_git_branch_environment live master main'
+alias egbm='show_message Deprecated "Use egm instead"'
 
 execute_git_changes() {
   if [ "$#" == 0 ]; then
@@ -418,7 +418,7 @@ execute_git_fetch() {
 
 alias egf=execute_git_fetch
 
-alias egm='git merge '
+alias egm='execute_git_branch_environment live master main'
 
 execute_git_push() {
   show_message "Git" "Pushing to \"$1\" branch"

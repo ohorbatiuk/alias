@@ -6,12 +6,12 @@
  /_/   \_\_|_|\__,_|___/
 ```
 
-# Alias
+# Introduction
 
-The set of alternative names of commands in the style of Assembler commands -
+The set of alternative names of commands in the style of Assembler commands —
 abbreviations or other maximally possible short names.
 
-## Commands list
+# Commands
 
 <table>
   <thead>
@@ -63,7 +63,7 @@ abbreviations or other maximally possible short names.
       <td>ecr</td>
       <td>Package name</td>
       <td>Add package</td>
-      <td>ecr&nbsp;lexhouk/d8:^0.14</td>
+      <td>ecr&nbsp;ohorbatiuk/d8:^0.14</td>
     </tr>
     <tr>
       <td colspan="4" align="center">Docker</td>
@@ -171,9 +171,13 @@ abbreviations or other maximally possible short names.
       <td>ega index.php</td>
     </tr>
     <tr>
+      <td>egbm</td>
+      <td colspan="3">Deprecated! Use <i>egm</i> instead.</td>
+    </tr>
+    <tr>
       <td><a href="https://git-scm.com/docs/git-switch">egbs</a></td>
       <td>Branch name</td>
-      <td>Switching to specified or previous branch.</td>
+      <td>Switching to a specified or previous branch.</td>
       <td>egbs main</td>
     </tr>
     <tr>
@@ -184,8 +188,14 @@ abbreviations or other maximally possible short names.
           <li>Folder name (optional)</li>
         </ul>
       </td>
-      <td>Re-clone repository when the current folder contains the repository. Otherwise, cloning a repository that is defined in a parameter.</td>
-      <td>egc https://github.com/lexhouk/configs.git configs</td>
+      <td>Re-clone the repository when the current folder contains the repository. Otherwise, cloning a repository that is defined in a parameter.</td>
+      <td>egc https://github.com/ohorbatiuk/alias.git alias</td>
+    </tr>
+    <tr>
+      <td>egm</td>
+      <td>—</td>
+      <td>Switch to the main branch.</td>
+      <td>egm</td>
     </tr>
     <tr>
       <td><a href="https://git-scm.com/docs/git-apply">egp</a></td>
@@ -197,7 +207,7 @@ abbreviations or other maximally possible short names.
       <td>egrv</td>
       <td>Commit hash(es)</td>
       <td>Revert some existing commit(s)</td>
-      <td>egrv 1a4e902815b1619bcf2cc9a284e57c6650ef4098</td>
+      <td>egrv 43e8e72</td>
     </tr>
     <tr>
       <td>egs</td>
@@ -282,7 +292,7 @@ abbreviations or other maximally possible short names.
   </tbody>
 </table>
 
-## Projects file format
+# Projects
 
 **projects.yml**
 
