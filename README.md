@@ -289,6 +289,33 @@ abbreviations or other maximally possible short names.
       <td>Creating dump of database</td>
       <td>epsh master</td>
     </tr>
+    <tr>
+      <td colspan="4" align="center">SSH</td>
+    </tr>
+    <tr>
+      <td>erd</td>
+      <td>-</td>
+      <td>Connect to the development server</td>
+      <td>erd</td>
+    </tr>
+    <tr>
+      <td>erl</td>
+      <td>-</td>
+      <td>Connect to the live server</td>
+      <td>erl</td>
+    </tr>
+    <tr>
+      <td>erdt</td>
+      <td>Source folder</td>
+      <td>Copy from the development server</td>
+      <td>erdt /var/www/content</td>
+    </tr>
+    <tr>
+      <td>erlt</td>
+      <td>Source folder</td>
+      <td>Copy from the live server</td>
+      <td>erlt /var/www/content</td>
+    </tr>
   </tbody>
 </table>
 

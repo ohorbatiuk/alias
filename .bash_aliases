@@ -156,7 +156,7 @@ execute_remote_transfer() {
           port=22
         fi
 
-        scp -P ${port} ${user}@${host}:$2 .
+        scp -rP ${port} ${user}@${host}:$2 .
       else
         show_message "SSH" "User not defined!"
       fi
@@ -592,7 +592,7 @@ alias edre=execute_docker_execute
 alias edra='sudo chmod +x $(find . -name "*.sh") '
 
 execute_docker_compose() {
-  if [ -z $(which docker-compose)]; then
+  if [ -z $(which docker-compose) ]; then
     docker compose $@
   else
     docker-compose $@
