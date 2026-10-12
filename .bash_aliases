@@ -486,6 +486,13 @@ execute_git_pull_environment() {
 alias egld='execute_git_pull_environment dev dev'
 alias eglm='execute_git_pull_environment live master main'
 
+execute_git_one() {
+  show_message "Git" "Showing last commit in log"
+  gl -1 $@
+}
+
+alias ego=execute_git_one
+
 git_stash() {
   show_message "Git" "Stashing the changes in a dirty working directory away"
   git stash $@

@@ -198,6 +198,12 @@ abbreviations or other maximally possible short names.
       <td>egm</td>
     </tr>
     <tr>
+      <td>ego</td>
+      <td><i>See <a href="https://git-scm.com/docs/git-log">here</a></i></td>
+      <td>Show the last commit in the log.</td>
+      <td>ego --format=%B</td>
+    </tr>
+    <tr>
       <td><a href="https://git-scm.com/docs/git-apply">egp</a></td>
       <td>Filename</td>
       <td>Apply a patch</td>
